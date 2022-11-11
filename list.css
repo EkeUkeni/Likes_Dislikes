@@ -1,0 +1,56 @@
+*{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      body, html{
+      margin: auto;
+      max-width: 1150px;
+      padding: 20px;
+      text-align: left;
+      font-size: 18px;
+      background-color: #FAEBDF;
+    
+      }
+      .ordered_list {
+        list-style-type: square;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+      }
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        color: rgba(21, 68, 67, 0.816);
+      }
+
+    h3 {
+        text-align: left;
+        text-decoration: underline;
+        font-weight: bold;
+        color: rgba(21, 68, 67, 0.816);
+      }
+      .ordered_list .bold {
+        list-style-type: circle;
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        font-weight: bold;
+      }
+      #nested_list1 {
+        list-style-type: square;
+      }
+      #nested_list {
+        list-style-type: circle;
+      }
+
+      /* Here the list of my dislikes is having a class and an id selector, it obeyed the list type of lower-roman because an id have higher specificity over a class. */
+       .unordered_list {
+        list-style-type: lower-latin;
+      }
+      #dislikes {
+        list-style-type: lower-roman;
+      }
+      
+
+    
